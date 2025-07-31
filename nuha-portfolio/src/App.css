@@ -98,6 +98,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--space-md);
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -106,7 +107,12 @@ body {
   }
 }
 
-/* Section Styling */
+/* Section Styling - Fixed full width backgrounds */
+section {
+  width: 100%;
+  position: relative;
+}
+
 .section-header {
   text-align: center;
   margin-bottom: var(--space-2xl);
@@ -256,10 +262,13 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 main {
   flex: 1;
+  width: 100%;
 }
 
 /* Smooth scrolling for older browsers */

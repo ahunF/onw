@@ -1,6 +1,8 @@
 .projects {
   padding: var(--space-2xl) 0;
   background: var(--bg-secondary);
+  width: 100%;
+  position: relative;
 }
 
 .filter-tabs {
@@ -9,6 +11,7 @@
   gap: var(--space-sm);
   margin-bottom: var(--space-2xl);
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .filter-tab {
@@ -39,6 +42,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: var(--space-xl);
+  width: 100%;
 }
 
 .project-card {
@@ -51,6 +55,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .project-card:hover {
@@ -81,6 +86,7 @@
   height: 200px;
   overflow: hidden;
   background: var(--bg-tertiary);
+  width: 100%;
 }
 
 .project-image img {
@@ -142,6 +148,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .project-title {
@@ -164,6 +171,7 @@
   flex-wrap: wrap;
   gap: var(--space-xs);
   margin-bottom: var(--space-lg);
+  width: 100%;
 }
 
 .tech-tag {
@@ -180,6 +188,7 @@
   display: flex;
   gap: var(--space-sm);
   margin-top: auto;
+  width: 100%;
 }
 
 .project-actions .btn {

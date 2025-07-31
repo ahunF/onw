@@ -1,6 +1,8 @@
 .about {
   padding: var(--space-2xl) 0;
   background: var(--bg-secondary);
+  width: 100%;
+  position: relative;
 }
 
 .about-content {
@@ -9,6 +11,11 @@
   gap: var(--space-2xl);
   align-items: start;
   margin-top: var(--space-2xl);
+  width: 100%;
+}
+
+.about-text {
+  width: 100%;
 }
 
 .about-text h3 {
@@ -44,12 +51,14 @@
 .about-features {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .features-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-md);
+  width: 100%;
 }
 
 .feature-card {
@@ -61,6 +70,7 @@
   transition: all var(--transition-normal);
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .feature-card::before {

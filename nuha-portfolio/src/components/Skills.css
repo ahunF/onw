@@ -1,6 +1,8 @@
 .skills {
   padding: var(--space-2xl) 0;
   background: var(--bg-primary);
+  width: 100%;
+  position: relative;
 }
 
 .skills-grid {
@@ -8,6 +10,7 @@
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: var(--space-xl);
   margin-top: var(--space-2xl);
+  width: 100%;
 }
 
 .skill-category {
@@ -18,6 +21,7 @@
   border: 1px solid var(--border-primary);
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .skill-category::before {
@@ -55,6 +59,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
+  width: 100%;
 }
 
 .skill-item {
@@ -63,6 +68,7 @@
   border-radius: var(--radius-lg);
   border: 1px solid var(--border-primary);
   transition: all var(--transition-normal);
+  width: 100%;
 }
 
 .skill-item:hover {
@@ -75,6 +81,7 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: var(--space-xs);
+  width: 100%;
 }
 
 .skill-info {
@@ -108,6 +115,7 @@
   border-radius: var(--radius-sm);
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .skill-progress {
