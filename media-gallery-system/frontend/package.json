@@ -21,7 +21,8 @@
     "react-modal": "^3.16.1",
     "react-select": "^5.7.4",
     "file-saver": "^2.0.5",
-    "jszip": "^3.10.1"
+    "jszip": "^3.10.1",
+    "@heroicons/react": "^2.0.18"
   },
   "devDependencies": {
     "@types/react": "^18.2.21",
